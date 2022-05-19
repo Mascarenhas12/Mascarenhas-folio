@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
+    "deploy": "node ./gh-pages.js",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.31",
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
@@ -21,6 +23,7 @@
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^4.0.0",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.13",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
